@@ -30,9 +30,19 @@ class WorkTwo {
       throw new Error("a는 숫자만 가능합니다.");
     }
   }
+
+  set b(value) {
+    if (typeof value === "number") {
+      return (this._b = value);
+    } else {
+      throw new Error("b는 숫자만 가능합니다.");
+    }
+  }
 }
 
 let test = new WorkTwo(1, 2);
 console.log(test);
+console.dir(test);
+console.log(test._a + test._b);
 
 
