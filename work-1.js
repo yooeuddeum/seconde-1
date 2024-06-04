@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // function workOne(a, b) {
 //   if (typeof a === "number") {
 //     if (typeof b === "number") {
@@ -16,5 +16,4 @@ function workOne(a, b) {
     console.log("매개변수 잘못적음");
   }
 }
-=======
->>>>>>> work-3
+
